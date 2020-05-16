@@ -1,0 +1,285 @@
+/* font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'Lexend Mega', sans-serif; */
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?nm58wl');
+    src:  url('../fonts/icomoon.eot?nm58wl#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?nm58wl') format('truetype'),
+      url('../fonts/icomoon.woff?nm58wl') format('woff'),
+      url('../fonts/icomoon.svg?nm58wl#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+body{
+    width: 960px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+.volanta{
+    width: 300px;
+    background-color: #6fc283;
+    position: relative;
+    top: 0;
+    left: 430px;
+}
+h3{
+    font-family: 'Lexend Mega', sans-serif; 
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0.3em;
+    color: white;
+    letter-spacing: 0.6em;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 8.8em;
+    color: white;
+    text-shadow: -1px -1px 1px #bbbdc0,
+    1px -1px 1px #bbbdc0,
+    -1px 1px 1px #bbbdc0,
+    1px 1px 1px #bbbdc0;
+    margin: 0px;
+    letter-spacing: -10px;
+   
+}
+.social{
+    float: right;
+/*     background-color: chartreuse;*/    
+    width: 80px;
+    text-align: center;
+    
+}
+.social ul{
+    list-style: none;
+    padding: 0.5em;
+    margin-right: 1em;
+}
+.boton{
+    font-size: 2em;
+    text-decoration: none;
+    color: #bbbdc0;
+}
+
+.icon-instagram:before {
+    font-family: "icomoon";
+    content: "\ea92";
+  }
+.icon-whatsapp:before {
+    font-family: "icomoon";
+    content: "\ea93";
+   }
+.boton:hover{
+    color: #8ac271;
+}
+
+.sail{
+    width: 675px;
+    clear: both;
+    margin: auto;
+}
+nav ul li{
+    font-family:'Pathway Gothic One', sans-serif;
+    display: inline-block;
+    width: 20%;
+    margin-right: 0.5em;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    background-color: #bed99e;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 4px;  
+    transition: all 0.5s ease;
+}
+.sail ul li:nth-child(odd) a{
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.sail ul li:nth-child(even) a{
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+nav ul li a:hover{
+    background-color: #6fc283;
+    box-shadow: 5px 5px 5px rgb(74, 131, 99);
+}
+.semana{
+    border-top: 3px dotted white;
+    background-image: url(../img/fitonia.jpg);
+    height: 500px;
+    
+  
+}
+.semana .week{
+    background-color: #6fc283;
+    width: 300px;
+    height: 33px;
+    position: relative;
+    top: 300px;
+    margin: 0;
+    padding-left: 5px;
+   
+}
+.week-plant{
+    background-color: white;
+    position: relative;
+    top: 300px;
+    color: #000;
+    margin: 0;
+    height: 7em;
+
+}
+.week-plant h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6em;
+    margin: 0 0 0 8px;
+    float: left;
+    letter-spacing: -3px;
+    
+}
+.week-plant .plant-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    float: right;
+    width: 65%;
+    margin: 6px 2px 2px 0;
+}
+.date{
+    height: 200px;
+    background-color: #000;
+    border: 3px dotted #6fc283;
+    padding-top: 45px;
+}
+.date h3{
+    text-align: center;
+    color: #808284;
+    padding: 0;
+
+}
+.date h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 6em;
+    text-shadow: -1px -1px 1px #bbbdc0,
+    1px -1px 1px #bbbdc0,
+    -1px 1px 1px #bbbdc0,
+    1px 1px 1px #bbbdc0;
+    text-align: center;
+    margin: 0em;
+}
+.date a{
+    color: #bbbdc0;
+    margin-top: 0;
+    text-decoration: none;
+    margin-top: 20px;
+    letter-spacing: 0.35em;
+}
+.date a:hover{
+    color: #bed99e;
+}
+.winter{
+    height: 80px; 
+    text-align: center; 
+    box-sizing: border-box;
+    padding: 20px;
+    border-bottom: 3px dotted #6fc283;
+}
+.winter h3{
+    color: #bbbdc0;
+    font-size: 1.3em;
+    letter-spacing: 3em;
+    margin: 0;
+}
+.seasons{
+    background-image: url(../img/cyclamen.jpg);
+    height: 500px;
+
+}
+.seasons .season-flower{
+    width: 300px;
+    height: 160px;
+    background-color: white;
+    position: relative;
+    left: 430px;
+    top: 340px;
+    box-sizing: border-box;
+    padding: 8px;
+}
+.seasons .season-flower h5{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 2em;
+    margin: 0;
+}
+.seasons .season-flower h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #bbbdc0;
+    font-size: 4em;
+    margin:  10px 0 5px 0;
+    letter-spacing: -2px;
+    line-height: 0.8em;
+}
+footer{
+    width: 960px;
+}
+footer .footer-nav{
+    width: 675px;
+    margin: 70px auto 30px;
+}
+.footer-nav ul li{
+    font-family:'Pathway Gothic One', sans-serif;
+    display: inline-block;
+    width: 20%;
+    margin-right: 0.5em;
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    background-color: #bed99e;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 4px;  
+    transition: all 0.5s ease;
+}
+ul li:nth-child(odd) a{
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+ul li:nth-child(even) a{
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.footer-nav ul li a:hover{
+    background-color: #6fc283;
+    box-shadow: 5px 5px 5px rgb(74, 131, 99);
+}
+footer .end{
+    width: 960px;
+    border-top: 3px dotted #6fc283;
+    height: 200px;
+}
+footer .end h3{
+    color: #6fc283;
+    font-size: 0.85em;
+    text-align: center;
+    margin-top: 40px;
+}
+footer .end h3 span{
+    color: #bbbdc0;
+    display: block;
+    margin-top: 20px;
+}
+
+
